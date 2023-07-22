@@ -1,0 +1,32 @@
+#navbar {
+  background-color: rgb(238, 231, 231);
+}
+
+#container {
+  border: rgba(255, 255, 255, 0.205) 8px solid;
+  height: 320px;
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: rgb(149, 148, 214);
+  border-radius: 20%;
+
+}
+#nombre {
+  width: 300px;
+}
+#genero {
+  width: 300px;
+}
+#año {
+  width: 300px;
+}
+
+#autor {
+  width: 300px;
+}
+
+#p {
+  text-align: center;
+}

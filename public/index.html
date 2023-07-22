@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba modulo6</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./estilo.css">
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg bg-light" >
+    <div class="container-fluid" id="navbar">
+      <a class="navbar-brand" href="#">Animés API</a>
+       </ul>
+       <div id="anime-card"></div>
+        <form action="/buscar"  class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Ingresa Animé" aria-label="Search">
+          <button class="btn btn-danger" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body>
+  
+  <p id="p">Ingrese los datos del animé a guardar</p>
+  <div class="container-fluid" id="container">
+    <form action="/crear" method="get">
+      <label for="nombre">Nombre</label>
+      <br>
+
+      <input type="text" name="nombre" id="nombre">
+      <br>
+      <br>
+      <label for="genero">Género</label>
+      <br>
+      <input type="text" name="genero" id="genero">
+      <br>
+      <br>
+      <label for="año">Año</label>
+      <br>
+      <input type="number" name="año" id="año">
+      <br>
+      <br>
+      <label for="autor">Autor</label>
+      <br>
+      <input type="text" name="autor" id="autor">
+      <br>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-dark">GUARDAR</button>
+      <br>
+      <br>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

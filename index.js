@@ -1,5 +1,4 @@
-const app = require('./app')
-
+const app = require('./app');
 
 const main = () => {
     const PORT = 3000;
@@ -8,4 +7,5 @@ const main = () => {
     });
 }
 
-main()
+main();
+
