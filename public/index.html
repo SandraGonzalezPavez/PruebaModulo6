@@ -15,8 +15,8 @@
       <a class="navbar-brand" href="#">Animés API</a>
        </ul>
        <div id="anime-card"></div>
-        <form action="/buscar"  class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Ingresa Animé" aria-label="Search">
+        <form action="/leer/id"  class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Ingresa ID de Animé a buscar" aria-label="Search">
           <button class="btn btn-danger" type="submit">Buscar</button>
         </form>
       </div>
@@ -24,8 +24,8 @@
   </nav>
 </header>
 
-<body>
-  
+<body id="body">
+  <br>
   <p id="p">Ingrese los datos del animé a guardar</p>
   <div class="container-fluid" id="container">
     <form action="/crear" method="get">
@@ -56,9 +56,13 @@
       <br>
     </form>
   </div>
+  <br>
+  <br>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

@@ -30,3 +30,19 @@
 #p {
   text-align: center;
 }
+
+#p1 {
+  margin-top: 40px;
+  text-align: center;
+}
+#leer {
+  border: rgba(255, 255, 255, 0.205) 8px solid;
+  height: 100px;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: rgb(149, 148, 214);
+  border-radius: 15%;
+}
